@@ -5,8 +5,12 @@ SOUL - Saving Oriented Universal Lottery
 The application is a web3 dapp platform to provide its users an ability to invest in a loss-less lottery which is also a savings product.
 The target user for SOUL platform are those small holders who does not have enough money to own a significant amount of crypto, but are interested in generating wealth. Our product helps these people to generate life changing wealth by providing them a opportunity without loosing there initial savings.
 
-# Use case diagram
-![alt text](file://./diagrams/SOULUserWorkFlow.png)
+## Use case diagram
+![](https://github.com/soul-org/documents/blob/main/diagrams/SOULUserWorkFlow.png)
+
+## Features
+![](https://github.com/soul-org/documents/blob/main/diagrams/SOULMindMap.png)
+![](https://github.com/soul-org/documents/blob/main/diagrams/SOULFeatureMindMap.png)
 
 
 ## components
@@ -37,6 +41,12 @@ Each lottery pool will be backed by staking validators to generate the winning a
 3. The staking contract on AVAX will invoke the Chainlink Price Feed to call SOUL Analytics API, to find the best validator and there APY.
 4. The staking contract will then stake the tokens and update the lottery contract of the successfull staking.
 5. Somewhere down the line, Chainlink UpKeep will time-based trigger will call winner on lottery contract, whereby using chainlink random number generator will identify the winner from the all the stakers, calculate the total winning amount from the staking pool and despoit the reward in the winners wallet.
+
+## architectural
+
+![](https://github.com/soul-org/documents/blob/main/diagrams/SOULSequenceDiagram.png)
+![](https://github.com/soul-org/documents/blob/main/diagrams/SOULCrossChainCCIPStaking.png)
+
 
 ## technology
 - Vercel
