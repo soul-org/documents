@@ -5,6 +5,10 @@ SOUL - Saving Oriented Universal Lottery
 The application is a web3 dapp platform to provide its users an ability to invest in a loss-less lottery which is also a savings product.
 The target user for SOUL platform are those small holders who does not have enough money to own a significant amount of crypto, but are interested in generating wealth. Our product helps these people to generate life changing wealth by providing them a opportunity without loosing there initial savings.
 
+# Use case diagram
+![alt text](file://./diagrams/SOULUserWorkFlow.png)
+
+
 ## components
 
 - Lottery  Pool
